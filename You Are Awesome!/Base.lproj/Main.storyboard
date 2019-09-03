@@ -26,11 +26,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rBo-vL-yh3">
-                                <rect key="frame" x="155" y="152" width="104" height="30"/>
+                                <rect key="frame" x="20" y="152" width="104" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Show message"/>
                                 <connections>
                                     <action selector="showMessagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="eBa-VT-Fgf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="l4M-JQ-ZCT">
+                                <rect key="frame" x="233" y="152" width="161" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Show another message"/>
+                                <connections>
+                                    <action selector="showAnotherMessagePressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="rxO-19-OFr"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -38,7 +46,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
-                        <outlet property="messageLabel" destination="WoP-cO-bkC" id="UHi-ku-4U0"/>
+                        <outlet property="messageLabel" destination="WoP-cO-bkC" id="XPu-vS-N46"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
